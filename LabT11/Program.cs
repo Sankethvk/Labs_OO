@@ -40,10 +40,10 @@ namespace LabT11
                 Employees[i].AllowancePercentage = CustomConsole.ReadDouble();
 
                 Console.WriteLine("Enter Role Id : ");
-                Console.WriteLine(Roles.DEVELOPER + ". " + RoleBuilder.GetRoleDescription((int)Roles.DEVELOPER));
-                Console.WriteLine(Roles.TEST_ENGINEER + ". " + RoleBuilder.GetRoleDescription((int)Roles.TEST_ENGINEER));
-                Console.WriteLine(Roles.SR_DEVELOPER + ". " + RoleBuilder.GetRoleDescription((int)Roles.SR_DEVELOPER));
-                Console.WriteLine(Roles.DESIGNER + ". " + RoleBuilder.GetRoleDescription((int)Roles.DESIGNER));
+                Console.WriteLine(Roles.DEVELOPER + ". " + EmployeeReport.RoleDesc((int)Roles.DEVELOPER));
+                Console.WriteLine(Roles.TEST_ENGINEER + ". " + EmployeeReport.RoleDesc((int)Roles.TEST_ENGINEER));
+                Console.WriteLine(Roles.SR_DEVELOPER + ". " + EmployeeReport.RoleDesc((int)Roles.SR_DEVELOPER));
+                Console.WriteLine(Roles.DESIGNER + ". " + EmployeeReport.RoleDesc((int)Roles.DESIGNER));
                 Role = CustomConsole.ReadInt();
 
                 
