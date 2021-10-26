@@ -37,6 +37,11 @@ namespace LabT11
 		    Console.WriteLine("Total Employees : " + Count);
 		    PrintLine();
 	    }
+	    
+	    public static string RoleDesc(int RoleId)
+        {
+            return RoleBuilder.GetRoleDescription(RoleId);
+        }
 
      
 	    public void DisplayEmployees(Employee[] Employees) 
